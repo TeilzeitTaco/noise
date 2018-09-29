@@ -1,0 +1,3 @@
+#define FB_PROGRAM_ICON 1
+
+FB_PROGRAM_ICON ICON DISCARDABLE "S:\asdasdy\noise\Src\Res\retro.ico"
