@@ -1,0 +1,11 @@
+*.obj
+*.exe
+*.bak
+*.ini
+*.aps
+*.asm
+*.o
+*.zip
+*.7z
+addressbook.txt
+log.txt
