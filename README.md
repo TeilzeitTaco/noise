@@ -9,4 +9,4 @@ TVnoise will let you experience *epic* TV static on your PC, just like you remem
 * Closing the program could be tricky if compiled as GUI, so console mode is recommended.
 
 ### Thanks:
-The retro televison icon is provided by icons8.com, check them out!
+The retro televison icon (*noise.ico*) is provided by icons8.com, check them out!
