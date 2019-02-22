@@ -1,9 +1,13 @@
-*.obj
+# Binary files
 *.exe
-*.bak
-*.ini
 *.aps
+
+# Temp. files
 *.asm
+*.obj
 *.o
+*.bak
+
+# Release files
 *.zip
 *.7z
