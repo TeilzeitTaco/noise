@@ -19,8 +19,8 @@ Randomize									'Initialize random number generator
 rp = ThreadCreate(@rndProv)			'Start random number generator
 If rp = 0 Then: End: EndIf				'Check for errors
 
-ScreenInfo(wMax, hMax)												'Get screen resolution, this creates problems on some platforms
-ScreenRes(wMax, hMax, , 1, &h08 Or &h80 Or &h20 Or &h40)	'Initialize screen mode
+ScreenInfo(wMax, hMax)									'Get screen resolution, this creates problems on some platforms
+ScreenRes(wMax, hMax, , , &h08 Or &h20 Or &h80)	'Initialize screen mode
 
 frameBuffer = ScreenPtr 				'Get screen byte PTR
 If frameBuffer = 0 Then: End: EndIf	'Check for errors
@@ -43,7 +43,7 @@ Do
 		If (y = hMax) Then
 			y = 0
 
-			ScreenUnLock	'Unlock screen sync
+			ScreenUnlock	'Unlock screen sync
 			ScreenSync		'Wait for screen sync
 			ScreenLock		'Relock screen
 		Else
